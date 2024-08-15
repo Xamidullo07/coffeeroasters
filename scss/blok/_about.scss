@@ -1,0 +1,36 @@
+.about_hero {
+
+    &__container {
+        background-repeat: no-repeat;
+        background-image: url("/img/about/about__hero_img.png");
+
+    }
+
+    &__title {
+    
+        font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 120%;
+        color: #fefcf7;
+        margin-bottom: 24px;
+    }
+     
+    &__content{
+        padding-top: 137px;
+        padding-left: 85px;
+        padding-bottom: 137px;
+        width: 445px;
+    }
+    &__text {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: #fefcf7;
+        margin-bottom: 137px;
+    }
+
+
+
+}

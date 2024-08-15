@@ -1,0 +1,24 @@
+@mixin button {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 139%;
+    text-align: center;
+    color: #fefcf7;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 15px 31px;
+    margin-bottom: 200px;
+    background: #0E8784;
+    transition: 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        
+        transform: scale(1.02);
+    }
+
+    &:active {
+        background-color: #035e5c;
+    }
+}

@@ -1,0 +1,39 @@
+.ection_section {
+    padding-bottom: 168px;
+
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 133%;
+        color: #83888f;
+        margin-bottom: 72px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 180px;
+
+    }
+
+    &_item__title {
+        font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 112%;
+        color: #333d4b;
+        margin-top: 45px;
+        margin-bottom: 24px;
+    }
+
+    &_item__text {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: #333d4b;
+    }
+
+
+}
